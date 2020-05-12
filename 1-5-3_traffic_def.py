@@ -4,7 +4,7 @@ import numpy as np
 
 #ランダムに作ったtrafficデータを用いる
 file_id = 'web_traffic.csv'
-file_path = '/Users/makro/.spyder-py3/workspace/'
+file_path = '/xxxx/xxxxx/.spyder-py3/workspace/'
 rfile = file_path + file_id
 
 #csvファイルを読み込み
