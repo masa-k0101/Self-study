@@ -52,6 +52,9 @@ f1 = np.poly1d(fp1)
 fx = np.linspace(0,x[-1],1000)
 plt.plot(fx,f1(fx),linewidth=4)
 
+#算出した近似式を記載
 plt.plot(x1,y2,linewidth=4)
 plt.text(0.1,a*0.1+b, 'y='+ str(round(a,4)) +'x+'+str(round(b,4)))
+plt.plot(x1,y2,linewidth=4)
+plt.text(0.1,a2*0.1+b2+c2, 'y2='+ str(round(a2,4)) +'x2+'+str(round(b2,4))+'x+'+str(round(c2,4)))
 #plt.legend(["d=%i" % y1.order], loc="upper left")
