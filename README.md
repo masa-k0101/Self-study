@@ -1,4 +1,5 @@
 # Self-study
 python trainning
 
-MachineLarning with python
+Mwp:MachineLarning with python
+Dfz:DeepLarning from zero
