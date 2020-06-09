@@ -3,7 +3,14 @@ import numpy as np
 import matplotlib.pylab as plt
 
 def sigmoid(x):
-    return 1 / (1 + np.exp(-x))
+# xをオーバーフローしない範囲に補正
+    sigmoid_range = 34.538776394910684
+    x2 = np.maximum(np.minimum(x, sigmoid_range), -sigmoid_range)
+# シグモイド関数
+    return 1 / (1 + np.exp(-x2))
+
+def sigmoid_grad(x):
+    return (1.0 - sigmoid(x)) * sigmoid(x)
 
 if __name__ == '__main__':
     X = np.arange(-5.0, 5.0, 0.1)
