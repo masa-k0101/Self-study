@@ -3,9 +3,9 @@ import sys
 sys.path.append("C:/Study/Python/Deep-learning from scratch")
 import numpy as np
 import pickle
-from data_mnist import load_mnist
-from Sigmoid_function import sigmoid
-from softmax import softmax
+from 3-2_data_mnist import load_mnist
+from 2_sigmoid_function import sigmoid
+from 2_softmax import softmax
 
 def get_data():
     (x_train, t_train), (x_test, t_test)= load_mnist(normalize=True, flatten=True, one_hot_label=False)
