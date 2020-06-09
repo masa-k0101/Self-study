@@ -2,7 +2,7 @@
 import numpy as np
 
 #data mnistをインポート
-from data_mnist import load_mnist
+from 3-2_data_mnist import load_mnist
 #リサイズやトリミング、回転、反転など基本的な処理はPillow
 from PIL import Image
 
