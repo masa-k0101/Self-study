@@ -3,8 +3,8 @@ import sys, os
 sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 import numpy as np
 import matplotlib.pyplot as plt
-from data_mnist import load_mnist
-from two_layer_net import TwoLayerNet
+from 3-2_data_mnist import load_mnist
+from 4-3_two_layer_net import TwoLayerNet
 
 # MNISTの訓練データとテストデータ読み込み
 (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, one_hot_label=True)
@@ -14,7 +14,7 @@ network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)
 
 # ハイパーパラメーター設定
 iters_num = 10000  # 繰り返しの回数を適宜設定する
-train_size = x_train.shape[0]
+train_size = x_train.shape[0] # 訓練データのサイズ設定
 batch_size = 100    # バッチサイズ
 learning_rate = 0.1 # 学習率
 
