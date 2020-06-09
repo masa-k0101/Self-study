@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
 sys.path.append("/Study/python")
-from Sigmoid_function import sigmoid
+from 2_sigmoid_function import sigmoid
 import numpy as np
 
 def identity_function(x):
