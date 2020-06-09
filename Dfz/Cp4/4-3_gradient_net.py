@@ -2,7 +2,7 @@
 import sys, os
 sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 import numpy as np
-from softmax import softmax
+from 2_softmax import softmax
 from cross_entropy_function import cross_entropy_error
 from gradient_2d import numerical_gradient
 
