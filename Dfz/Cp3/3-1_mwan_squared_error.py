@@ -2,7 +2,7 @@
 import sys
 sys.path.append("C:/Study/Python/Deep-learning from scratch")
 import numpy as np
-from sum_squared_function import sum_squared_error
+from 3-1_sum_squared_function import sum_squared_error
 
 #二乗和誤差法サンプル
 t = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
