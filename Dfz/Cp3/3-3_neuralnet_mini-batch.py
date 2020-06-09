@@ -2,7 +2,7 @@
 import sys
 sys.path.append("C:/Study/Python/Deep-learning from scratch")
 import numpy as np
-from data_mnist import load_mnist
+from 3-2_data_mnist import load_mnist
 
 # データの読み込み
 (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, flatten=True, one_hot_label=False)
