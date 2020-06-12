@@ -2,7 +2,7 @@
 import sys
 sys.path.append("C:/Study/Python/Deep-learning from scratch")
 import numpy as np
-from 3-1_cross_entropy_function import cross_entropy_error
+from c3_1_cross_entropy_function import cross_entropy_error
 
 #交差エントロピー誤差サンプル
 t = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
