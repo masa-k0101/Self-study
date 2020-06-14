@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pylab as plt
 
 class Sigmoid:
+
     def __init__(self, x):
         self.x = x
         
