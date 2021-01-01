@@ -1,5 +1,5 @@
 #textでは元々spを使っていた
-import scipy as sp
+#import scipy as sp
 import numpy as np
 
 #ランダムに作ったtrafficデータを用いる
