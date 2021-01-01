@@ -1,7 +1,8 @@
 #import scipy as sp
 import pandas as pd
 #import numpy as np
-from sklearn.model_selection import cross_val_score,LeaveOneOut,KFold,StratifiedKFold
+from sklearn.model_selection import cross_val_score,LeaveOneOut,KFold
+#from sklearn.model_selection import StratifiedKFold
 from matplotlib import pyplot as plt
 from sklearn.metrics import accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
