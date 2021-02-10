@@ -49,14 +49,12 @@ def send_message(username, message):
             pyautogui.typewrite('\n')
             return
         elif click_image('newconv.png'):
-            # 画像がマッチしなければ、ユーザが選択中で背景がグレーに
-            # なっていることが考えられるので、いったん、 
+            # 画像がマッチしなければ、ユーザが選択中で背景がグレーになっていることが考えられるので、いったん、 
             #「新しい会話」をクリックして、選択を解除して背景を白くする。
             # そして、もう1回だけリトライする
             continue
         else:
-            # 「新しい会話」(newconv.png)が見つからない場合は、
-            # みなさんの環境で新しい会話の部分を切り取ってnewconv.pngとして
+            # 「新しい会話」(newconv.png)が見つからない場合は、みなさんの環境で新しい会話の部分を切り取ってnewconv.pngとして
             # 保存しなおしてください。
             print('「新しい会話」が見つかりません。中止します。')
             return
